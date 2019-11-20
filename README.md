@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # XYYNetWorkMonitor
 
 [![CI Status](https://img.shields.io/travis/xudaquan/XYYNetWorkMonitor.svg?style=flat)](https://travis-ci.org/xudaquan/XYYNetWorkMonitor)
@@ -27,3 +28,6 @@ xudaquan, xudaquan@ybm100.com
 ## License
 
 XYYNetWorkMonitor is available under the MIT license. See the LICENSE file for more info.
+=======
+# XYYNetWorkMonitor
+>>>>>>> c029c88799b01838296d40b5b4f0baff8aba9244
