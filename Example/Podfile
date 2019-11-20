@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'XYYNetWorkMonitor_Example' do
+  pod 'XYYNetWorkMonitor', :path => '../'
+
+  target 'XYYNetWorkMonitor_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
