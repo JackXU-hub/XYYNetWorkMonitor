@@ -1,0 +1,16 @@
+PODS:
+  - XYYNetWorkMonitor (0.1.0)
+
+DEPENDENCIES:
+  - XYYNetWorkMonitor (from `../`)
+
+EXTERNAL SOURCES:
+  XYYNetWorkMonitor:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  XYYNetWorkMonitor: 5451fded38e84755fc6c09cdf77ffd7b8ce593d5
+
+PODFILE CHECKSUM: 784114b3b52f3e80f6d9c166896ae34e3ec5ef82
+
+COCOAPODS: 1.7.0

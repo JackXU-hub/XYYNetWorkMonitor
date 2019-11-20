@@ -1,0 +1,6 @@
+framework module XYYNetWorkMonitor {
+  umbrella header "XYYNetWorkMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

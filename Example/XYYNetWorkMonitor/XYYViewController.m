@@ -7,7 +7,7 @@
 //
 
 #import "XYYViewController.h"
-
+#import <XYYNetWorkMonitor/NetworkMonitor.h>
 @interface XYYViewController ()
 
 @end
@@ -17,7 +17,6 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
 }
 
 - (void)didReceiveMemoryWarning

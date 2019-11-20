@@ -37,8 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		090F5C098AD1E2F414118CAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		11FB8AB779AA7E7018399F73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		090F5C098AD1E2F414118CAE /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		11FB8AB779AA7E7018399F73 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* XYYNetWorkMonitor_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XYYNetWorkMonitor_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -66,7 +66,7 @@
 		997D754A29F4017E3EBCF502 /* Pods-XYYNetWorkMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XYYNetWorkMonitor_Example.debug.xcconfig"; path = "Target Support Files/Pods-XYYNetWorkMonitor_Example/Pods-XYYNetWorkMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		A7C96FCF905FC4476045A09C /* Pods_XYYNetWorkMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYYNetWorkMonitor_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8EC1DB0750CC76BB6B64E10 /* Pods_XYYNetWorkMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XYYNetWorkMonitor_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		B2B8F68FD31A61A8F490DFFD /* XYYNetWorkMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = XYYNetWorkMonitor.podspec; path = ../XYYNetWorkMonitor.podspec; sourceTree = "<group>"; };
+		B2B8F68FD31A61A8F490DFFD /* XYYNetWorkMonitor.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = XYYNetWorkMonitor.podspec; path = ../XYYNetWorkMonitor.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -193,7 +193,6 @@
 				79E8965F1527994072B0A26C /* Pods-XYYNetWorkMonitor_Tests.debug.xcconfig */,
 				671F9022CFC72CD3CF055554 /* Pods-XYYNetWorkMonitor_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +207,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				649C7705C0EBEFEE500765A1 /* [CP] Embed Pods Frameworks */,
+				7FDC6CD17C6BC2D769ADC983 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,14 +294,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		649C7705C0EBEFEE500765A1 /* [CP] Embed Pods Frameworks */ = {
+		7FDC6CD17C6BC2D769ADC983 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-XYYNetWorkMonitor_Example/Pods-XYYNetWorkMonitor_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/XYYNetWorkMonitor/XYYNetWorkMonitor.framework",
+				"${PODS_ROOT}/../../XYYNetWorkMonitor/Classes/XYYNetWorkMonitorFramework/XYYNetWorkMonitor.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (

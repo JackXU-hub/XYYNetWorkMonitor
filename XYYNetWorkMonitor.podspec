@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'XYYNetWorkMonitor'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of XYYNetWorkMonitor.'
+  s.summary          = 'XYYNetWorkMonitor'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,16 +21,17 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/xudaquan/XYYNetWorkMonitor'
+  s.homepage         = 'https://github.com/XUDAQUAN/XYYNetWorkMonitor'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'xudaquan' => 'xudaquan@ybm100.com' }
-  s.source           = { :git => 'https://github.com/xudaquan/XYYNetWorkMonitor.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/XUDAQUAN/XYYNetWorkMonitor.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'XYYNetWorkMonitor/Classes/**/*'
+  #s.source_files = 'XYYNetWorkMonitor/Classes/**/*'
+  s.vendored_frameworks = ['XYYNetWorkMonitor/Classes/XYYNetWorkMonitorFramework/*.framework']
   
   # s.resource_bundles = {
   #   'XYYNetWorkMonitor' => ['XYYNetWorkMonitor/Assets/*.png']
