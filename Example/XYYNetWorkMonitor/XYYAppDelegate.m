@@ -7,12 +7,18 @@
 //
 
 #import "XYYAppDelegate.h"
-
+#import <XYYNetWorkMonitor/NetworkMonitor.h>
 @implementation XYYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    XYYConfig *config = [[XYYConfig alloc] init];
+    config.enableNetworkMonitor = YES;
+    config.enableLog = YES;
+    config.enableInterferenceMode = NO;
+    config.reportTimeInterval = 10;
+    [[XYYManager sharedXYYManager] initConfig:config];
+    [[XYYManager sharedXYYManager] start];
     return YES;
 }
 

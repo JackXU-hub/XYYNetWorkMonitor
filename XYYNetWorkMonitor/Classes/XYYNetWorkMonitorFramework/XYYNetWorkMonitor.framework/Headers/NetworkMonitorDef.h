@@ -11,7 +11,7 @@
 
 #define HEAD_KEY_EETRACEID @"callId"
 #define HEAD_KEY_MAKE(key) [NSString stringWithFormat:@"head_keys_%@", key]
-#define UpLoadUrl  @"http://192.168.166.173/monitor/net"
+#define UpLoadUrl  @"http://192.168.125.131/monitor/net"
 
 extern NSString *XYYDATA_KEY_CMD; //接口描述
 extern NSString *XYYDATA_KEY_ERRORTYPE; //错误类型

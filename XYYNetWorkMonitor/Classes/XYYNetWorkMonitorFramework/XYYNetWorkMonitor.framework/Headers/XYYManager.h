@@ -34,9 +34,12 @@
 - (void)initConfig:(XYYConfig *)config;
 
 /**
- *外部传来的业务错误数据
- */
-- (void)setRequest:(NSURLRequest*)request;
+*外部传来的业务错误数据
+@param request 请求信息 task.currentRequest
+@param bizCode 错误码
+@param bizDesc 错误描述
+*/
+- (void)setRequest:(NSURLRequest *)request bizCode:(NSString*)bizCode bizDesc:(NSString*)bizDesc;
 
 
 

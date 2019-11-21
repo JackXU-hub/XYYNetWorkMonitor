@@ -8,6 +8,7 @@
 
 #import "XYYViewController.h"
 #import <XYYNetWorkMonitor/NetworkMonitor.h>
+#define kAppleUrlToCheckNetStatus @"https://meuserapi.test.ybm100.com/api/appVersion/getTime"
 @interface XYYViewController ()
 
 @end
@@ -17,6 +18,11 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    NSString *urlString = kAppleUrlToCheckNetStatus;
+    NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:urlString]];
+    [[[NSURLSession sharedSession] dataTaskWithRequest:request completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+        
+    }] resume];
 }
 
 - (void)didReceiveMemoryWarning
