@@ -50,5 +50,8 @@
 //用户id;
 @property (nonatomic, copy)NSString *uid;
 
+//外部调用APP版本
+@property (nonatomic, copy)NSString *appVersion;
+
 
 @end
