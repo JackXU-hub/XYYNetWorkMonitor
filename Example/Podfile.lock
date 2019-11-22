@@ -1,5 +1,5 @@
 PODS:
-  - XYYNetWorkMonitor (0.1.4)
+  - XYYNetWorkMonitor (0.1.5)
 
 DEPENDENCIES:
   - XYYNetWorkMonitor (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  XYYNetWorkMonitor: 109eb6e0cfb6d8f4c6be2e2c7806f1235231d3be
+  XYYNetWorkMonitor: 42b7251262f59b511404ace6c0b14668cb051c32
 
 PODFILE CHECKSUM: 784114b3b52f3e80f6d9c166896ae34e3ec5ef82
 
-COCOAPODS: 1.7.0
+COCOAPODS: 1.8.4

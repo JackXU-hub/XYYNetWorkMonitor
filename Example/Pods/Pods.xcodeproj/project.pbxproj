@@ -48,11 +48,13 @@
 		1534B66AB1C8305C5E2F808D8703A799 /* Pods-XYYNetWorkMonitor_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-XYYNetWorkMonitor_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		178CCB14521F4E09721B0953FC116207 /* Pods-XYYNetWorkMonitor_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYYNetWorkMonitor_Tests-dummy.m"; sourceTree = "<group>"; };
 		182A709F2BB21A03FE1881DD923941C3 /* Pods-XYYNetWorkMonitor_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYYNetWorkMonitor_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		1B5B078CE932F50BB205AFE7494A5409 /* Pods_XYYNetWorkMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYYNetWorkMonitor_Tests.framework; path = "Pods-XYYNetWorkMonitor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		260406633B0E815105E995EBCBF47A24 /* Pods-XYYNetWorkMonitor_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYYNetWorkMonitor_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A398584DB32B00E988295F7AB29E34D /* Pods-XYYNetWorkMonitor_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-XYYNetWorkMonitor_Tests.modulemap"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		41F6FF6A3EB3B382FA07794175D2D54A /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		4CF2EBFE1697052C2A66DC0824CFD5E4 /* Pods-XYYNetWorkMonitor_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYYNetWorkMonitor_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7380F2A7CEB81A2FF9907636AA19F301 /* Pods_XYYNetWorkMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYYNetWorkMonitor_Example.framework; path = "Pods-XYYNetWorkMonitor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		745C2FD0BB1CC7A1B0510D23093E195D /* XYYNetWorkMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = XYYNetWorkMonitor.xcconfig; sourceTree = "<group>"; };
 		7F7DDF8D5430DD443FB54F7DA7A41B0C /* Pods-XYYNetWorkMonitor_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-XYYNetWorkMonitor_Example-umbrella.h"; sourceTree = "<group>"; };
 		87B00761F6EE3DFE52A6F8CDDD2C0014 /* XYYNetWorkMonitor.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = XYYNetWorkMonitor.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -60,8 +62,6 @@
 		9A78FC98FB290A3335AB8066851C27A3 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		AA52F261FCDAF6C8A67222076BC9380D /* Pods-XYYNetWorkMonitor_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYYNetWorkMonitor_Example.release.xcconfig"; sourceTree = "<group>"; };
-		B32C89257C395563EAD9FC61609C20FC /* Pods_XYYNetWorkMonitor_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYYNetWorkMonitor_Example.framework; path = "Pods-XYYNetWorkMonitor_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B7DB7520BF85D6BA762B964665EE4FBD /* Pods_XYYNetWorkMonitor_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_XYYNetWorkMonitor_Tests.framework; path = "Pods-XYYNetWorkMonitor_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB4CE9D11AD29AD0F661AD8F78D493F1 /* Pods-XYYNetWorkMonitor_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-XYYNetWorkMonitor_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		CB34A551A2F3F0F1961952821288001C /* Pods-XYYNetWorkMonitor_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-XYYNetWorkMonitor_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		DB19B781902586B2CB91CD4D415E70D0 /* Pods-XYYNetWorkMonitor_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-XYYNetWorkMonitor_Example-dummy.m"; sourceTree = "<group>"; };
@@ -133,8 +133,8 @@
 		9BDCDC5ABA9151E012735B7BDCA32BF3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B32C89257C395563EAD9FC61609C20FC /* Pods_XYYNetWorkMonitor_Example.framework */,
-				B7DB7520BF85D6BA762B964665EE4FBD /* Pods_XYYNetWorkMonitor_Tests.framework */,
+				7380F2A7CEB81A2FF9907636AA19F301 /* Pods_XYYNetWorkMonitor_Example.framework */,
+				1B5B078CE932F50BB205AFE7494A5409 /* Pods_XYYNetWorkMonitor_Tests.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,7 +253,7 @@
 			);
 			name = "Pods-XYYNetWorkMonitor_Example";
 			productName = "Pods-XYYNetWorkMonitor_Example";
-			productReference = B32C89257C395563EAD9FC61609C20FC /* Pods_XYYNetWorkMonitor_Example.framework */;
+			productReference = 7380F2A7CEB81A2FF9907636AA19F301 /* Pods_XYYNetWorkMonitor_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		B7631B27AEAD6AB46983B09542D757B5 /* Pods-XYYNetWorkMonitor_Tests */ = {
@@ -272,7 +272,7 @@
 			);
 			name = "Pods-XYYNetWorkMonitor_Tests";
 			productName = "Pods-XYYNetWorkMonitor_Tests";
-			productReference = B7DB7520BF85D6BA762B964665EE4FBD /* Pods_XYYNetWorkMonitor_Tests.framework */;
+			productReference = 1B5B078CE932F50BB205AFE7494A5409 /* Pods_XYYNetWorkMonitor_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -290,6 +290,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = 9BDCDC5ABA9151E012735B7BDCA32BF3 /* Products */;
