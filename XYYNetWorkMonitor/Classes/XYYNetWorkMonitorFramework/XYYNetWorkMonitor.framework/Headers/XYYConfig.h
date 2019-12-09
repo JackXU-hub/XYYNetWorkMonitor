@@ -47,11 +47,18 @@
  */
 @property (nonatomic, assign)NSInteger reportTimeInterval;
 
+/**
+ 网络耗时监控阈值( 响应结束时刻 - 请求开始时刻 ) > 5000ms 默认为 5000 ms
+ */
+@property (nonatomic, assign)NSInteger networkDurationThreshold;
+
+/**
+ 网络流量监控阈值 ( 请求字节数 + 响应字节数 ) > 300 千字节 默认为 300 KB
+ */
+@property (nonatomic, assign)NSInteger networkDataSizeThreshold;
+
 //用户id;
 @property (nonatomic, copy)NSString *uid;
-
-//外部调用APP版本
-@property (nonatomic, copy)NSString *appVersion;
 
 
 @end

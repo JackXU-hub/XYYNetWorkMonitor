@@ -17,6 +17,7 @@
     config.enableLog = YES;
     config.enableInterferenceMode = NO;
     config.reportTimeInterval = 10;
+    config.networkDurationThreshold = 300;
     [[XYYManager sharedXYYManager] initConfig:config];
     [[XYYManager sharedXYYManager] start];
     return YES;
